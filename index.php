@@ -20,7 +20,7 @@
 <pre>
   <h2 style="text-align: center;">
     <?php 
-      echo $infinito;
+      echo str_replace($_GET["censored"], "***", $infinito);
     ?> 
   </h2>
 </pre>
