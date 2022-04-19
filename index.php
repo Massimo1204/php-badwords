@@ -21,6 +21,7 @@
   <h2 style="text-align: center;">
     <?php 
       echo str_replace($_GET["censored"], "***", $infinito);
+      echo "Lunghezza = " . strlen(str_replace($_GET["censored"], "***", $infinito));
     ?> 
   </h2>
 </pre>
